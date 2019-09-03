@@ -1,1 +1,15 @@
+QuickLooker:
+This is a quick tool having a wide range of features suitable for Material Planning in any of the manufacturin environment. 
+It can be used in businesses like wholesale, distribution, and pharmaeutical.
+
+Data Source: 
+Data is pulled from SQL serves using MySQL commands and them merged with OLTP for daily transactions.
+BOM for each Project was also merged using SQL commands and then the file was imported on PowerBI using Power Query.
+
+Visualization:
+PowerBi is used to show the visualization and for measuring Supplier's KPI.
+
+Reporting:
+From Power query file was downloaded and with the help of VBA automated tool is created which can provide us the "Total Requirements" for all the batches, "Shortage" total and for each individual batch when selected, Supplier information along with the Purchase orders.
+This tool can also provide us the information about each selected Open Purchase order and its delivery date.
 
